@@ -1,0 +1,28 @@
+.search_bar {
+  position: relative;
+  background-color: #fff;
+  padding: 13px 10px;
+  border-radius: 5px;
+  width: 55%;
+  margin-left: 30px;
+  margin-right: 2.15rem;
+  input {
+    width: 85%;
+    outline: none;
+    border: none;
+    color: purple;
+    font-weight: bold;
+    background-color: inherit;
+    font-size: 1.1rem;
+    font-family: apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;;
+    padding: 0 10px;
+    &::placeholder {
+      font-size: 0.95rem;
+      color: rgb(168, 151, 151);
+      font-weight: 100;
+    }
+  }
+  @media all and (min-width: 1000px) {
+     width: 42%;
+  }
+}
